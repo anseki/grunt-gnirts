@@ -38,7 +38,7 @@ if (userInput === 'open the sesame') {
 }
 ```
 
-Add the directives:
+Add the directives (Note that all of the condition expression is included in the directive):
 
 ```js
 if (/* @mangle */ userInput === 'open the sesame' /* @/mangle */) {
@@ -46,7 +46,7 @@ if (/* @mangle */ userInput === 'open the sesame' /* @/mangle */) {
 }
 ```
 
-And then, pass this code to gnirts. The code between `/* @mangle */` and `/* @/mangle */` is obfuscated:
+And then, pass this code to gnirts. The condition expression between `/* @mangle */` and `/* @/mangle */` is obfuscated:
 
 ```js
 if ((new RegExp('^[\\s\\S]{10}'+((function(){var O=Array.prototype.slice.call(arguments),l=O.shift();return O.reverse().map(function(c,O){return String.fromCharCode(c-l-62-O)}).join('')})(8,171)+(28).toString(36).toLowerCase()+(function(){var O=Array.prototype.slice.call(arguments),l=O.shift();return O.reverse().map(function(c,O){return String.fromCharCode(c-l-26-O)}).join('')})(9,132)+(22).toString(36).toLowerCase()+(function(){var O=Array.prototype.slice.call(arguments),l=O.shift();return O.reverse().map(function(c,O){return String.fromCharCode(c-l-8-O)}).join('')})(19,128)).replace(/(\W)/g,'\\$1'))).test(userInput)&&(userInput).indexOf((function(){var O=Array.prototype.slice.call(arguments),l=O.shift();return O.reverse().map(function(c,O){return String.fromCharCode(c-l-18-O)}).join('')})(13,135)+(14).toString(36).toLowerCase()+(function(){var O=Array.prototype.slice.call(arguments),l=O.shift();return O.reverse().map(function(c,O){return String.fromCharCode(c-l-2-O)}).join('')})(25,59)+(28).toString(36).toLowerCase())===6&&(new RegExp('^[\\s\\S]{5}'+((function(){var O=Array.prototype.slice.call(arguments),l=O.shift();return O.reverse().map(function(c,O){return String.fromCharCode(c-l-3-O)}).join('')})(52,171)).replace(/(\W)/g,'\\$1'))).test(userInput)&&(userInput).indexOf((function(){var O=Array.prototype.slice.call(arguments),l=O.shift();return O.reverse().map(function(c,O){return String.fromCharCode(c-l-55-O)}).join('')})(44,209)+(16).toString(36).toLowerCase().split('').map(function(O){return String.fromCharCode(O.charCodeAt()+(-71))}).join(''))===3&&(new RegExp('^[\\s\\S]{2}'+((function(){var O=Array.prototype.slice.call(arguments),l=O.shift();return O.reverse().map(function(c,O){return String.fromCharCode(c-l-45-O)}).join('')})(7,153)).replace(/(\W)/g,'\\$1'))).test(userInput)&&(userInput).indexOf((function(){var O=Array.prototype.slice.call(arguments),l=O.shift();return O.reverse().map(function(c,O){return String.fromCharCode(c-l-33-O)}).join('')})(25,169)+(25).toString(36).toLowerCase())===0) {
