@@ -2,6 +2,8 @@
 
 This [Grunt](http://gruntjs.com/) plugin is wrapper of [gnirts](https://github.com/anseki/gnirts).
 
+* [gulp](http://gulpjs.com/) plugin: [gulp-gnirts](https://github.com/anseki/gulp-gnirts)
+
 Obfuscate the string literal in the JavaScript code.
 
 gnirts mangles the string literal more than hexadecimal escape like `"\x66\x6f\x6f"`.  
