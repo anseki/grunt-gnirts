@@ -1,0 +1,38 @@
+{
+  "name": "grunt-gnirts",
+  "version": "0.1.0",
+  "title": "grunt-gnirts",
+  "description": "Obfuscate the string literal in the JavaScript code.",
+  "keywords": [
+    "gruntplugin",
+    "mangle",
+    "obfuscate",
+    "obfuscator",
+    "obfuscation",
+    "string",
+    "literal",
+    "security",
+    "password",
+    "secret"
+  ],
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "dependencies": {
+    "gnirts": "~0.1.0"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.1"
+  },
+  "homepage": "https://github.com/anseki/grunt-gnirts",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/anseki/grunt-gnirts.git"
+  },
+  "bugs": "https://github.com/anseki/grunt-gnirts/issues",
+  "license": "MIT",
+  "author": {
+    "name": "anseki",
+    "url": "https://github.com/anseki"
+  }
+}
