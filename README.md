@@ -57,7 +57,7 @@ if ((userInput).indexOf((function(){var O=Array.prototype.slice.call(arguments),
 
 ## More Informations
 
-See [gnirts](https://github.com/anseki/gnirts) for the usage of the directive and more information.
+See [gnirts](https://github.com/anseki/gnirts) for the usage of the directive and more informations.
 
 ## Getting Started
 
