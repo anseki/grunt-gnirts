@@ -55,9 +55,9 @@ if ((userInput).indexOf((function(){var l=Array.prototype.slice.call(arguments),
 }
 ```
 
-## More Informations
+## More Information
 
-See [gnirts](https://github.com/anseki/gnirts) for the usage of the directive and more informations.
+See [gnirts](https://github.com/anseki/gnirts) for the usage of the directive and more information.
 
 ## Getting Started
 
@@ -94,8 +94,8 @@ grunt.initConfig({
 });
 ```
 
-See [gnirts](https://github.com/anseki/gnirts) for more informations.
+See [gnirts](https://github.com/anseki/gnirts) for more information.
 
 ## Note
 
-This mangling is not the cryptography to keep the data secure. It is used to avoid the hacking, the stealing something or the reverse engineering for such as the hybrid applications or the web applications. If your program uses the sensitive informations such as the user's accounts, you should consider the standard secure system such as the cryptography by key pair.
+This mangling is not the cryptography to keep the data secure. It is used to avoid the hacking, the stealing something or the reverse engineering for such as the hybrid applications or the web applications. If your program uses the sensitive information such as the user's accounts, you should consider the standard secure system such as the cryptography by key pair.
