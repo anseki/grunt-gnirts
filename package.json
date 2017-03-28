@@ -19,7 +19,7 @@
     "node": ">= 0.8.0"
   },
   "dependencies": {
-    "gnirts": "~0.4.5"
+    "gnirts": "~1.1.1"
   },
   "peerDependencies": {
     "grunt": ">=0.4.0"
