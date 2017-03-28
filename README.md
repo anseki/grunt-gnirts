@@ -5,6 +5,7 @@
 This [Grunt](http://gruntjs.com/) plugin is wrapper of [gnirts](https://github.com/anseki/gnirts).
 
 * [gulp](http://gulpjs.com/) plugin: [gulp-gnirts](https://github.com/anseki/gulp-gnirts)
+* [webpack](https://webpack.js.org/) loader: [gnirts-loader](https://github.com/anseki/gnirts-loader)
 
 Obfuscate the string literal in the JavaScript code.
 
