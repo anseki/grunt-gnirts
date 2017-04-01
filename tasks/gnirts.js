@@ -13,7 +13,7 @@ module.exports = function(grunt) {
   var gnirts = require('gnirts');
 
   grunt.registerMultiTask('gnirts', 'Obfuscate the string literal in the JavaScript code.', function() {
-    this.files.forEach(function(f) {
+    this.files.forEach(function(f) { // eslint-disable-line no-invalid-this
       // Concat specified files.
       var src = f.src.filter(function(filepath) {
         // Warn on and remove invalid source files (if nonull was set).
