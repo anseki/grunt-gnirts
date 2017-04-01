@@ -26,9 +26,7 @@ Once the plugin has been installed, it may be enabled inside your Gruntfile with
 grunt.loadNpmTasks('grunt-gnirts');
 ```
 
-## The "gnirts" task
-
-### Overview
+## Usage
 
 In your project's Gruntfile, add a section named `gnirts` to the data object passed into `grunt.initConfig()`.
 
