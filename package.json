@@ -1,6 +1,6 @@
 {
   "name": "grunt-gnirts",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "title": "grunt-gnirts",
   "description": "Obfuscate string literals in JavaScript code.",
   "keywords": [
@@ -19,7 +19,7 @@
     "node": ">= 0.8.0"
   },
   "dependencies": {
-    "gnirts": "^1.1.1"
+    "gnirts": "^1.1.3"
   },
   "peerDependencies": {
     "grunt": ">=0.4.0"
