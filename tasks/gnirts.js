@@ -2,7 +2,7 @@
  * grunt-gnirts
  * https://github.com/anseki/grunt-gnirts
  *
- * Copyright (c) 2017 anseki
+ * Copyright (c) 2018 anseki
  * Licensed under the MIT license.
  */
 
