@@ -1,6 +1,6 @@
 {
   "name": "grunt-gnirts",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "title": "grunt-gnirts",
   "description": "Obfuscate string literals in JavaScript code.",
   "keywords": [
