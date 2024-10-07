@@ -22,7 +22,7 @@
     "node": ">= 0.8.0"
   },
   "dependencies": {
-    "gnirts": "~1.1.7"
+    "gnirts": "^1.1.8"
   },
   "peerDependencies": {
     "grunt": ">=0.4.0"
